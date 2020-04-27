@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  mobileWidth : 420, 
+  tabletWidth : 800
 };

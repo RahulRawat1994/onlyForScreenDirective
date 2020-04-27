@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { OnlyForScreenDirective } from './only-for-screen.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OnlyForScreenDirective
   ],
   imports: [
     BrowserModule
